@@ -1,0 +1,33 @@
+﻿# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output and caches
+.next/
+dist/
+build/
+coverage/
+.turbo/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local databases and generated files
+*.sqlite
+*.db
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Test and tool artifacts
+playwright-report/
+test-results/
